@@ -654,8 +654,8 @@ a[data-toggle="tab"] {
     font-size: 0.75rem;
     padding: 0.5rem 1rem;
     border-radius: 6.1875rem;
-    color: #b5a46d;
-    background-color: rgba(181, 164, 109, 0.1);
+    color: #ffff;
+    background-color: #ed1c24;
 }
 
 .hover-effect {
