@@ -121,6 +121,20 @@ Created by : mutationthemes
     position: relative;
 }
 
+#modal-body {
+    position:relative;
+    text-align: center;
+    color: white;
+}
+
+#promotion-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
 
 .inner-hero {
     bottom: 0;
@@ -1129,5 +1143,8 @@ h2, .h2{
 .footer{
   margin-top: 1.9rem;
 }
+
 }
 /*End mediaqueries*/
+
+

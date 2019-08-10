@@ -67,23 +67,34 @@
                      </button>
                      <div class="nav-menu collapse navbar-collapse navbar-collapse justify-content-end py-0 ">
                         <ul class=" navbar-nav  header-navbar-nav">
-                           <li><a class=" nav-link scroll" href="#wrapper"  style="font-size: 1.15em;">Home</a></li>
+                           <li><a class=" nav-link scroll" href="#wrapper" style="font-size: 1.15em;">Home</a></li>
                            <li><a class=" nav-link scroll" data-glf-cuid="ef8b1001-21f8-49a5-96fd-7494867fbd5d"
-                                 data-glf-ruid="e48ec699-d8c1-4f0f-8ad0-f976757eb834" style="font-size: 1.15em;">Menu</a>
+                                 data-glf-ruid="e48ec699-d8c1-4f0f-8ad0-f976757eb834"
+                                 style="font-size: 1.15em;">Menu</a>
                               <script src="https://www.fbgcdn.com/embedder/js/ewm2.js" defer async></script>
                            </li>
                            <li><a class=" nav-link scroll" href="#gallery" style="font-size: 1.15em;">Gallery</a></li>
                            <li><a class=" nav-link scroll" href="#about" style="font-size: 1.15em;">About Us</a></li>
-                           <li><a class=" nav-link scroll" href="#contact" style="font-size: 1.15em;">Contact Us</a></li>
-                           <li> <span class="btn btn-danger ml-2" data-glf-cuid="ef8b1001-21f8-49a5-96fd-7494867fbd5d"
+                           <li><a class=" nav-link scroll" href="#contact" style="font-size: 1.15em;">Contact Us</a>
+                           </li>
+                           <!-- <li> <span class="btn btn-danger ml-2" data-glf-cuid="ef8b1001-21f8-49a5-96fd-7494867fbd5d"
                                  data-glf-ruid="e48ec699-d8c1-4f0f-8ad0-f976757eb834" style="font-size: 1.15em;"> See MENU & Order</span>
                               <script src="https://www.fbgcdn.com/embedder/js/ewm2.js" defer async></script>
+                           </li> -->
+                           <li>
+                              <button type="button" class="btn  btn-danger" data-toggle="modal"
+                                 data-target="#exampleModal">
+                                 See MENU & Order
+                              </button>
                            </li>
-                           <li><a class=" nav-link pr-0 pb-sm-4 pb-sm-0" href="tel:+13066648668" style="font-size: 1.15em;"><span
-                                    class="fa fa-phone mr-3"></span>+1 306-664-8668</a></li>
+                           <li><a class=" nav-link pr-0 pb-sm-4 pb-sm-0" href="tel:+13066648668"
+                                 style="font-size: 1.15em;"><span class="fa fa-phone mr-3"></span>+1 306-664-8668</a>
+                           </li>
 
-                           <li class="nav-link"><a style="color:#007bff;" href="https://www.facebook.com/Szechuan-Kitchen-132043076825499/"
-                                 target="_blank" style="font-size: 1.15em;"><i class="fab fa-facebook-square"></i> Visit Our Facebook Page</a></li>
+                           <li class="nav-link"><a style="color:#007bff;"
+                                 href="https://www.facebook.com/Szechuan-Kitchen-132043076825499/" target="_blank"
+                                 style="font-size: 1.15em;"><i class="fab fa-facebook-square"></i> Visit Our Facebook
+                                 Page</a></li>
 
                         </ul>
                      </div>
@@ -109,6 +120,57 @@
             </ul>
          </div>
          <!--End main slider-->
+
+
+         <!-- Modal order online instruction-->
+         <div class="modal fade " id="exampleModal" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalLabel" aria-hidden="true" style="top:0;">
+            <div class="modal-dialog " role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title" id="exampleModalLabel">Promotion</h5>
+                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                     </button>
+                  </div>
+                  <div class="modal-body">
+                     <div id="modal-body">
+                        <img alt="Card image cap" style="width:100%;" class="card-img-top"
+                           src="assets/img/menu/menu-blackboard-with-knife-and-fork-PFJCHKS.jpg">
+                        <h1 class="text-white" id="promotion-text">Free Delivery For Order From 30 CAD</h1>
+                     </div>
+                     <div>
+                        <h3>Order Online Instruction</h3>
+                        <ul style="font-size: 1.2em">
+                           <li>
+                              <p style="color: #000;">
+                                 If you have any kind of <span class="text-danger">allergy </span>, please leave a note in <span class="text-danger">Special Instructions </span> field.
+                              </p>
+                           </li>
+                           <li>
+                              <p style="color: #000;">
+                                 To cancel an order please call us at <a class="text-danger" href="tel:+13066648668"> +1 306 664
+                                    8668</a> or use the chat box <img src="assets/img/menu/chatbox.jpg" height=50 alt="chat box"/> at the bottom-right corner
+                              </p>
+                           </li>
+
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="modal-footer">
+                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                     <span class="btn btn-danger ml-2" data-dismiss="modal"
+                        data-glf-cuid="ef8b1001-21f8-49a5-96fd-7494867fbd5d"
+                        data-glf-ruid="e48ec699-d8c1-4f0f-8ad0-f976757eb834" style="font-size: 1.15em;"> See MENU &
+                        Order</span>
+                     <script src="https://www.fbgcdn.com/embedder/js/ewm2.js" defer async></script>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+
+
          <div class="inner-hero">
             <!--Container-->
             <div class="container  hero-content">
@@ -460,14 +522,14 @@
                   </div>
                </div>
 
-              
+
             </div>
             <!--End row-->
             <!--Row-->
             <div class="row justify-content-center text-center ">
                <div class="col-md-auto">
                   <div class=" pt-5 mt-5">
-                        <button class="btn btn-primary" data-glf-cuid="ef8b1001-21f8-49a5-96fd-7494867fbd5d"
+                     <button class="btn btn-primary" data-glf-cuid="ef8b1001-21f8-49a5-96fd-7494867fbd5d"
                         data-glf-ruid="e48ec699-d8c1-4f0f-8ad0-f976757eb834"> See Our Menu and Order Online</button>
                      <script src="https://www.fbgcdn.com/embedder/js/ewm2.js" defer async></script>
                      <!-- <a href="#" class="btn btn-dark  btn-primary btn-wide ">Look Book</a> -->
@@ -486,29 +548,31 @@
 
       <!--End booking section-->
       <!--Footer-->
-      <footer class="footer bg-dark spacer-one-top-md spacer-one-bottom-xs" id="contact" >
+      <footer class="footer bg-dark spacer-one-top-md spacer-one-bottom-xs" id="contact">
          <svg class="footer-svg" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100"
             preserveAspectRatio="none" width="100%" height="100">
             <path d="M0 100 C40 0 60 0 100 100 Z"></path>
          </svg>
          <!--Container-->
-         <div class="container space-top-2 space-bottom-1"  >
+         <div class="container space-top-2 space-bottom-1">
             <!--row-->
             <div class="row justify-content-lg-start mb-5">
                <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
                   <a class="d-inline-block mb-3 footer-logo" href="index.html">
                      <img src="assets/img/logo/szechuan_logo.png" width="250" alt="">
                   </a>
-                  <p class="font-size-14 " style="font-size:1.2em;">Dear guests, you are welcomed to dine with us at Szechuan Kitchen restaurant.
+                  <p class="font-size-14 " style="font-size:1.2em;">Dear guests, you are welcomed to dine with us at
+                     Szechuan Kitchen restaurant.
                      Have a
                      pleasant dining experience.</p>
 
                </div>
-               <div class="col-lg-3 col-sm-6 mb-4" >
+               <div class="col-lg-3 col-sm-6 mb-4">
                   <h3 class="h6 text-white mb-3  font-size-15" style="font-size:1.2em;">Address</h3>
                   <address>
                      <ul class="list-group list-group-flush list-group-borderless mb-0">
-                        <li class="list-group-item"><a href="tel:+1306-664-8668" style="font-size:1.2em;"> +1 306-664-8668</a> </li>
+                        <li class="list-group-item"><a href="tel:+1306-664-8668" style="font-size:1.2em;"> +1
+                              306-664-8668</a> </li>
 
                         <li class="list-group-item" style="font-size:1.2em;">835E Broadway Ave
                            Saskatoon, SK S7N1B5</li>
@@ -585,16 +649,16 @@
    <!-- End google analytics -->
 
    <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-   var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-   (function(){
-   var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-   s1.async=true;
-   s1.src='https://embed.tawk.to/5d286cd39b94cd38bbe7004d/default';
-   s1.charset='UTF-8';
-   s1.setAttribute('crossorigin','*');
-   s0.parentNode.insertBefore(s1,s0);
-   })();
+   <script type="text/javascript">
+      var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+      (function () {
+         var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+         s1.async = true;
+         s1.src = 'https://embed.tawk.to/5d286cd39b94cd38bbe7004d/default';
+         s1.charset = 'UTF-8';
+         s1.setAttribute('crossorigin', '*');
+         s0.parentNode.insertBefore(s1, s0);
+      })();
    </script>
    <!--End of Tawk.to Script-->
 </body>
